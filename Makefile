@@ -6,14 +6,19 @@
 #    By: aafounas <aafounas@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/10/03 14:40:50 by aafounas          #+#    #+#              #
-#    Updated: 2024/10/21 13:27:09 by aafounas         ###   ########.fr        #
+#    Updated: 2024/12/04 16:35:45 by aafounas         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 # ==================== FICHIERS SOURCES ==================== #
-SRC =	src/philo.c \
-	    src/main.c \
-		src/parsing.c
+	    
+SRC =	src/main.c \
+		src/parsing.c \
+		src/monitor.c \
+		src/philosopher_actions.c\
+		src/philosopher_utils.c \
+		src/initialization.c \
+		src/simulation.c \
 
 OBJDIR = .obj/
 
